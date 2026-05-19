@@ -33,5 +33,5 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
             cd /opt/mmt-app
-            docker-compose pull frontend
-            docker-compose up -d frontend
+            docker compose pull frontend
+            docker compose up -d frontend

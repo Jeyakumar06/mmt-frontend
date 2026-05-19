@@ -33,6 +33,5 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
             cd /opt/mmt-app
-            docker rm -f mmt-frontend || true
             docker compose pull frontend
-            docker compose up -d frontend
+            docker compose up -d --force-recreate frontend

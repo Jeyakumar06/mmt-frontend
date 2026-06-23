@@ -14,6 +14,7 @@ import NotFound from "@/pages/not-found";
 import LoginPage from "@/pages/LoginPage";
 import Dashboard from "@/pages/Dashboard";
 import PrivateRoute from "@/utils/PrivateRoute";
+import { trackPageView } from "@/utils/analytics";
 
 function Router() {
   return (
@@ -39,6 +40,10 @@ function Router() {
 
 function App() {
   const [location] = useLocation();
+
+  useEffect(() => {
+trackPageView(location);
+}, [location]);
 
   
   const hideLayout =

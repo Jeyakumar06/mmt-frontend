@@ -31,7 +31,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold mb-1">Phone</h4>
-                    <p className="text-gray-300">+91 8940294931</p>
+                    <p className="text-gray-300">+91 9080399924</p>
                     <p className="text-gray-400 text-sm">Mon-Sun 9am to 9pm</p>
                   </div>
                 </div>
@@ -42,7 +42,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="font-bold mb-1">Email</h4>
-                    <p className="text-gray-300">bookings@mmtresorts.com</p>
+                    <p className="text-gray-300">mmtresorts@gmail.com</p>
                   </div>
                 </div>
 
@@ -53,8 +53,8 @@ export default function Contact() {
                   <div>
                     <h4 className="font-bold mb-1">Office</h4>
                     <p className="text-gray-300">
-                      123, East Coast Road (ECR),<br />
-                      Uthandi, Chennai - 600119
+                      No 1/129, 1st Floor, Kovalam Road ,<br />
+                      Kelambakkam, Chengalpattu - 603 103
                     </p>
                   </div>
                 </div>

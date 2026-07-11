@@ -97,7 +97,7 @@ export default function VillaPage() {
       `Add-ons: ${selectedAddons || "None"}%0A` +
       `Please check availability.`;
 
-    window.open(`https://wa.me/918940294931?text=${message}`, "_blank");
+    window.open(`https://wa.me/919080399924?text=${message}`, "_blank");
   };
 
   if (loading) {
